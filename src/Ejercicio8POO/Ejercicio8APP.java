@@ -55,10 +55,12 @@ public class Ejercicio8APP {
                     System.out.println("Digite una letra para remplaazar con la letra 'a' en la oracion si es que existe ");
                     letra= sc.nextLine().charAt(0);
                     cs.reemplazar(letra);
+                    break;
                 case 8:
                     System.out.println("Digite una letra para verificar si la oracion inicial la contiene ");
                     cadena = sc.nextLine().substring(0,1);
                     System.out.println("La letra esta contenida dentro de la oracion = "+cs.contiene(cadena));
+                    break;
                 case 9:
                     System.out.println("Gracias por utilizar la aplicacion");
                     salida='Y';
